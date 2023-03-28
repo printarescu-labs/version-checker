@@ -2,7 +2,7 @@ name: go-build
 
 on:
   push:
-    branches: [ "master" ]
+    branches-ignore: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
